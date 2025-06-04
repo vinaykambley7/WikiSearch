@@ -197,25 +197,46 @@
     margin-bottom: 30px;
     gap: 5px;
 }
-@media (max-width: 576px) {
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .main-container {
+        padding: 10px;
+    }
+
     .wiki-search-header {
-        padding: 15px;
+        padding: 20px 15px;
+        margin-bottom: 20px;
     }
-    
-    .logo-text {
-        font-size: 24px;
+
+    .wiki-logo {
+        width: 100px;
     }
-    
+
     .search-input {
-        padding: 10px 15px;
         font-size: 14px;
+        padding: 10px 16px;
     }
-    
+
     .result-title {
-        font-size: 16px;
+        font-size: 18px;
     }
-    
+
     .line-description {
         font-size: 13px;
+    }
+
+    .logo-text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .logo-container {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .search-results {
+        margin: 0;
+        padding: 10px;
     }
 }
