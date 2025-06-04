@@ -197,3 +197,25 @@
     margin-bottom: 30px;
     gap: 5px;
 }
+@media (max-width: 576px) {
+    .wiki-search-header {
+        padding: 15px;
+    }
+    
+    .logo-text {
+        font-size: 24px;
+    }
+    
+    .search-input {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    
+    .result-title {
+        font-size: 16px;
+    }
+    
+    .line-description {
+        font-size: 13px;
+    }
+}
