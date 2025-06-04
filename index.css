@@ -57,7 +57,7 @@
 .main-container {
     font-family: "Roboto";
     background: linear-gradient(135deg, #09203f 0%, #537895 100%);
-    border-radius: 16px;
+    border-radius: 0px;
     min-height: 100vh;
     padding: 20px;
     transition: all 0.4s ease;
